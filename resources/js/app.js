@@ -1,5 +1,4 @@
-import './bootstrap';
+require('./bootstrap');
 
-import '../styles/index.sass';
-
-console.log('ok')
+import './burger';
+import './tariffs';

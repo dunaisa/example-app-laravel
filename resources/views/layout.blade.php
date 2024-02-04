@@ -13,7 +13,8 @@
 
         <!-- Styles -->
 
-        @vite(['resources/js/app.js'])
+        <link rel="stylesheet" href="{{ asset('css/index.css') }}" >
+        <script src="{{ asset('js/app.js') }}" defer></script>
 
     </head>
     <body class="page">
@@ -22,7 +23,7 @@
 
             <header class="header">
                 <a href="#" class="header__logo-link">
-                    <img src="{{ Vite::asset('resources/images/logo.png') }}" alt="Логотип" class="header__logo-icon">
+                    <img src="images/logo.png" alt="Логотип" class="header__logo-icon">
                     <span class="header__logo-name">Test Task</span>
                 </a>
             <div class="header__burger-container">

@@ -77,7 +77,7 @@
             </div>
             <button class="tariff__btn tariffs__second-btn">
                 Get Started
-                <img src="{{ Vite::asset('resources/images/btn-arrow.png') }}" alt="" class="tariffs__second-btn-arrow">
+                <img src="images/btn-arrow.png" alt="" class="tariffs__second-btn-arrow">
             </button>
             </div>
 
